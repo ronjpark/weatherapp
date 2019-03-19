@@ -1,0 +1,8 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+service: my-weather-summary
+
+handlers:
+- url: .*
+  script: weather_summary.app
